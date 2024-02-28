@@ -6,23 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MedVet</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Indie+Flower&family=Jost:ital,wght@0,100..900;1,100..900&family=Protest+Riot&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header class="header">
         <div class="header-container container">
             <div class="header-wrap">
-                <a class="header-logo" href="#">
+                <a class="header-logo" href="index.html">
                     <img class="header-img" src="Images/Logo.png" alt="Логотип">
                 </a>
             </div>
             <nav class="header-nav">
                 <ul class="header-list">
-                    <li class="header-item">Services</li>
-                    <li class="header-item">Doctors</li>
-                    <li class="header-item">Benefits</li>
-                    <li class="header-item">Reviwes</li>
-                    <li class="header-item">Contacts</li>
+                    <li class="header-item">
+                        <a class="header-link" href="#">Services</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="header-link" href="#">Doctors</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="header-link" href="#">Benefits</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="header-link" href="#">Reviwes</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="header-link" href="#">Contacts</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -42,7 +57,7 @@
         </section>
         <section class="services">
             <div class="services-container container">
-                <h2 class="services-title"><span class="services-span">Our</span> Services</h2>
+                <h2 class="services-title"><span>Our</span> Services</h2>
                 <ul class="services-list">
                     <li class="services-item">
                         <img class="services-img" src="Images/Mops.png" alt="Собака">
@@ -71,6 +86,8 @@
                                 diet.</p>
                         </div>
                     </li>
+                </ul>
+                <ul class="services-list">
                     <li class="services-item">
                         <img class="services-img" src="Images/Stethoscope.png" alt="Стетоскоп">
                         <div class="services-wrap">
@@ -120,15 +137,15 @@
                 <div class="specialists-wrapper">
                     <div class="specialists-wrap">
                         <img class="specialists-img" src="Images/Jonathan.png" alt="Jonathan Kanes">
-                        <span class="worker">Jonathan Kanes</span>
+                        <h3 class="specialists-caption">Jonathan Kanes</h3>
                     </div>
                     <div class="specialists-wrap">
                         <img class="specialists-img" src="Images/Mike.png" alt="Mike Goodwill">
-                        <span class="worker">Mike Goodwill</span>
+                        <h3 class="specialists-caption">Mike Goodwill</h3>
                     </div>
                     <div class="specialists-wrap">
                         <img class="specialists-img" src="Images/Mervin.png" alt="Merlin Terance">
-                        <span class="worker">Merlin Terance</span>
+                        <h3 class="specialists-caption">Merlin Terance</h3>
                     </div>
                 </div>
             </div>
@@ -137,12 +154,17 @@
 
     <footer class="footer">
         <div class="footer-container container">
-            <img class="Footer-logo" src="Images/Footer-logo.png" alt="Logo">
-            <span class="Footer-contact">Contacts</span>
+            <div class="footer-wrap">
+                <a class="footer-logo" href="index.html">
+                    <img class="footer-logo-img" src="Images/Footer-logo.png" alt="Logo">
+                </a>
+            </div>
+            <h2 class="footer-title">Contact</h2>
             <ul class="footer-list">
                 <li class="footer-item">
                     <img class="footer-img" src="Images/Location.png" alt="Іконка локації">
-                    24 Broadcast Drive Charlotte NC 28479, Canada</li>
+                    <a class="footer-link" href="#">24 Broadcast Drive Charlotte NC 28479, Canada</a>
+                </li>
                 <li class="footer-item">
                     <img class="footer-img" src="Images/Mail.png" alt="Іконка листа">
                     <a class="footer-link" href="mailto:med&vet@mail.com">med&vet@mail.com</a>
